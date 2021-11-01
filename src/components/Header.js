@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <div>
-      <h1>This is my header</h1>
+      <h1>header component</h1>
     </div>
   );
 };

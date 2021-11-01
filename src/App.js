@@ -1,11 +1,12 @@
 import "./App.css";
 import Header from "./components/Header";
+import NotesPage from "./pages/NotesPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
       <Header />
+      <NotesPage />
     </div>
   );
 }
