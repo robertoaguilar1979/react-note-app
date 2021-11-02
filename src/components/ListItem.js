@@ -1,12 +1,10 @@
 import React from "react";
 import notes from "../assets/data";
 
-function ListItem() {
+function ListItem({ note }) {
   return (
     <div className="notes-list-item">
-      {notes.map((note) => (
-        <li>{note.body}</li>
-      ))}
+      <li>{note.body}</li>
     </div>
   );
 }

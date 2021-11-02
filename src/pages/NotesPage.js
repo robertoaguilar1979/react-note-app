@@ -1,12 +1,13 @@
 import React from "react";
 import notes from "../assets/data";
 import ListItem from "../components/ListItem";
+
 function NotesPage() {
   return (
     <div>
-      <ul>
-        <ListItem />
-      </ul>
+      {notes.map((note) => (
+        <ListItem note={note} />
+      ))}
     </div>
   );
 }
